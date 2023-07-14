@@ -74,6 +74,7 @@ public class Formulario {
                 }catch (IOException exception){
                     throw new RuntimeException(new Exception(exception));
                 }
+
             }
         });
 
@@ -99,6 +100,29 @@ public class Formulario {
                     }
                 }catch (IOException exception){
                     throw new RuntimeException(exception);
+                }
+                inputCod.setText("");
+                inputId.setText("");
+                inputNom.setText("");
+                inputApel.setText("");
+                comboBoxSigno.setSelectedIndex(0);
+                comboBoxAnio.setSelectedIndex(0);
+                comboBoxMes.setSelectedIndex(0);
+                comboBoxDia.setSelectedIndex(0);
+            }
+        });
+        button1.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                for (Estudiante estudiante:estudiantes){
+                    inputCod.setText(estudiante.getCodigo());
+                    inputId.setText(estudiante.getCedula());
+                    inputNom.setText(estudiante.getNombres());
+                    inputApel.setText(estudiante.getApellidos());
+                    comboBoxSigno.setSelectedIndex(Integer.parseInt(comboBoxSigno.getSelectedItem().toString()));
+                    comboBoxAnio.setSelectedIndex(Integer.parseInt(comboBoxAnio.getSelectedItem().toString()));
+                    comboBoxMes.setSelectedIndex(Integer.parseInt(comboBoxMes.getSelectedItem().toString()));
+                    comboBoxDia.setSelectedIndex(Integer.parseInt(comboBoxDia.getSelectedItem().toString()));
                 }
             }
         });
