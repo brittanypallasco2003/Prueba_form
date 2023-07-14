@@ -21,6 +21,7 @@ public class Formulario {
     private JButton button2;
 
 
+
     public static void main(String[] args) {
         JFrame frame=new JFrame("Estudiantes");
         frame.setContentPane(new Formulario().rootPanel);

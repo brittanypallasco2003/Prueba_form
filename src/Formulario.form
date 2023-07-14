@@ -3,7 +3,7 @@
   <grid id="27dc6" binding="rootPanel" layout-manager="GridLayoutManager" row-count="8" column-count="12" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="933" height="400"/>
+      <xy x="20" y="20" width="991" height="400"/>
     </constraints>
     <properties/>
     <border type="none"/>
@@ -81,7 +81,22 @@
         <constraints>
           <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
-        <properties/>
+        <properties>
+          <model>
+            <item value="Aries"/>
+            <item value="Tauro"/>
+            <item value="Géminis"/>
+            <item value="Cáncer"/>
+            <item value="Leo"/>
+            <item value="Virgo"/>
+            <item value="Libra"/>
+            <item value="Escorpio"/>
+            <item value="Sagitario"/>
+            <item value="Capricornio "/>
+            <item value="Acuario"/>
+            <item value="Piscis"/>
+          </model>
+        </properties>
       </component>
       <component id="e0c7" class="javax.swing.JTextField" binding="inputApel">
         <constraints>
@@ -101,26 +116,90 @@
           <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Label"/>
+          <text value="Fecha de Nacimiento"/>
         </properties>
       </component>
       <component id="ec6e5" class="javax.swing.JComboBox" binding="comboBox2" default-binding="true">
         <constraints>
           <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
-        <properties/>
+        <properties>
+          <model>
+            <item value="1999"/>
+            <item value="2000"/>
+            <item value="2001"/>
+            <item value="2002"/>
+            <item value="2003"/>
+            <item value="2004"/>
+            <item value="2005"/>
+            <item value="2006"/>
+            <item value="2007"/>
+            <item value="2008"/>
+            <item value="2009"/>
+            <item value="2010"/>
+          </model>
+        </properties>
       </component>
       <component id="cb1e0" class="javax.swing.JComboBox" binding="comboBox3" default-binding="true">
         <constraints>
           <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
-        <properties/>
+        <properties>
+          <model>
+            <item value="enero"/>
+            <item value="febrero"/>
+            <item value="marzo"/>
+            <item value="abril"/>
+            <item value="mayo"/>
+            <item value="junio"/>
+            <item value="julio"/>
+            <item value="agosto"/>
+            <item value="septiembre"/>
+            <item value="octubre"/>
+            <item value="noviembre"/>
+            <item value="diciembre"/>
+          </model>
+        </properties>
       </component>
       <component id="7134e" class="javax.swing.JComboBox" binding="comboBox4" default-binding="true">
         <constraints>
           <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
-        <properties/>
+        <properties>
+          <model>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+            <item value="5"/>
+            <item value="6"/>
+            <item value="7"/>
+            <item value="8"/>
+            <item value="9"/>
+            <item value="10"/>
+            <item value="11"/>
+            <item value="12"/>
+            <item value="13"/>
+            <item value="14"/>
+            <item value="15"/>
+            <item value="16"/>
+            <item value="17"/>
+            <item value="18"/>
+            <item value="19"/>
+            <item value="20"/>
+            <item value="21"/>
+            <item value="22"/>
+            <item value="23"/>
+            <item value="24"/>
+            <item value="25"/>
+            <item value="26"/>
+            <item value="27"/>
+            <item value="28"/>
+            <item value="29"/>
+            <item value="30"/>
+            <item value="31"/>
+          </model>
+        </properties>
       </component>
       <component id="a5b89" class="javax.swing.JLabel">
         <constraints>
