@@ -85,17 +85,17 @@ public class Formulario {
                 ){
                     int i=0;
                     for (Estudiante estudiante:estudiantes){
-                        System.out.println("Codigo "+(i+1)+" :"+estudiante.getCodigo());
-                        System.out.println("Cedula "+(i+1)+" :"+estudiante.getCedula());
-                        System.out.println("Nombres "+(i+1)+" :"+estudiante.getNombres());
-                        System.out.println("Apellidos "+(i+1)+" :"+estudiante.getApellidos());
-                        System.out.println("Signo "+(i+1)+" :"+estudiante.getSigno());
-                        System.out.println("Año de Nacimiento "+(i+1)+" :"+estudiante.getAnio());
-                        System.out.println("Mes de Nacimiento "+(i+1)+" :"+estudiante.getMes());
-                        System.out.println("Dia de Nacimiento "+(i+1)+" :"+estudiante.getDia());
-                        System.out.println("¿Es rojo color favorito? "+(i+1)+" :"+estudiante.isColorRojo());
-                        System.out.println("¿Es verde color favorito? "+(i+1)+" :"+estudiante.isColorVerde());
-                        System.out.println("¿No le gusta ni verde ni rojo? "+(i+1)+" :"+estudiante.isColornone());
+                        System.out.println("Codigo est "+(i+1)+" :"+estudiante.getCodigo());
+                        System.out.println("Cedula est "+(i+1)+" :"+estudiante.getCedula());
+                        System.out.println("Nombres est "+(i+1)+" :"+estudiante.getNombres());
+                        System.out.println("Apellidos est"+(i+1)+" :"+estudiante.getApellidos());
+                        System.out.println("Signo est"+(i+1)+" :"+estudiante.getSigno());
+                        System.out.println("Año de Nacimiento est "+(i+1)+" :"+estudiante.getAnio());
+                        System.out.println("Mes de Nacimiento est"+(i+1)+" :"+estudiante.getMes());
+                        System.out.println("Dia de Nacimiento est"+(i+1)+" :"+estudiante.getDia());
+                        System.out.println("¿Es rojo color favorito est? "+(i+1)+" :"+estudiante.isColorRojo());
+                        System.out.println("¿Es verde color favorito est? "+(i+1)+" :"+estudiante.isColorVerde());
+                        System.out.println("¿No le gusta ni verde ni rojo est? "+(i+1)+" :"+estudiante.isColornone());
                     }
                 }catch (IOException exception){
                     throw new RuntimeException(exception);
