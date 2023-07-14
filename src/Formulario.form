@@ -119,7 +119,7 @@
           <text value="Fecha de Nacimiento"/>
         </properties>
       </component>
-      <component id="ec6e5" class="javax.swing.JComboBox" binding="comboBox2" default-binding="true">
+      <component id="ec6e5" class="javax.swing.JComboBox" binding="comboBoxAnio">
         <constraints>
           <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -140,7 +140,7 @@
           </model>
         </properties>
       </component>
-      <component id="cb1e0" class="javax.swing.JComboBox" binding="comboBox3" default-binding="true">
+      <component id="cb1e0" class="javax.swing.JComboBox" binding="comboBoxMes">
         <constraints>
           <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -161,7 +161,7 @@
           </model>
         </properties>
       </component>
-      <component id="7134e" class="javax.swing.JComboBox" binding="comboBox4" default-binding="true">
+      <component id="7134e" class="javax.swing.JComboBox" binding="comboBoxDia">
         <constraints>
           <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
