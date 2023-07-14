@@ -111,6 +111,7 @@ public class Formulario {
                 comboBoxDia.setSelectedIndex(0);
             }
         });
+        //boton anteior registro
         button1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
