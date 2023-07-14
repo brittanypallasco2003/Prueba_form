@@ -76,6 +76,32 @@ public class Formulario {
                 }
             }
         });
+
+        cargarDatosDesdeElButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                try (FileInputStream fileInputStream=new FileInputStream(filepath);
+                     ObjectInputStream objectInputStream=new ObjectInputStream(fileInputStream)
+                ){
+                    int i=0;
+                    for (Estudiante estudiante:estudiantes){
+                        System.out.println("Codigo "+(i+1)+" :"+estudiante.getCodigo());
+                        System.out.println("Cedula "+(i+1)+" :"+estudiante.getCedula());
+                        System.out.println("Nombres "+(i+1)+" :"+estudiante.getNombres());
+                        System.out.println("Apellidos "+(i+1)+" :"+estudiante.getApellidos());
+                        System.out.println("Signo "+(i+1)+" :"+estudiante.getSigno());
+                        System.out.println("Año de Nacimiento "+(i+1)+" :"+estudiante.getAnio());
+                        System.out.println("Mes de Nacimiento "+(i+1)+" :"+estudiante.getMes());
+                        System.out.println("Dia de Nacimiento "+(i+1)+" :"+estudiante.getDia());
+                        System.out.println("¿Es rojo color favorito? "+(i+1)+" :"+estudiante.isColorRojo());
+                        System.out.println("¿Es verde color favorito? "+(i+1)+" :"+estudiante.isColorVerde());
+                        System.out.println("¿No le gusta ni verde ni rojo? "+(i+1)+" :"+estudiante.isColornone());
+                    }
+                }catch (IOException exception){
+                    throw new RuntimeException(exception);
+                }
+            }
+        });
     }
 
     public static void main(String[] args) {
