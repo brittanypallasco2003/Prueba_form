@@ -61,7 +61,15 @@ public class Formulario {
                     for (int i=0; i<estudiantes.size(); i++){
                         outputStream.writeObject(estudiantes.get(i).getCodigo());
                         outputStream.writeObject(estudiantes.get(i).getCedula());
-
+                        outputStream.writeObject(estudiantes.get(i).getNombres());
+                        outputStream.writeObject(estudiantes.get(i).getApellidos());
+                        outputStream.writeObject(estudiantes.get(i).getSigno());
+                        outputStream.writeObject(estudiantes.get(i).getAnio());
+                        outputStream.writeObject(estudiantes.get(i).getMes());
+                        outputStream.writeObject(estudiantes.get(i).getDia());
+                        outputStream.writeObject(estudiantes.get(i).isColorRojo());
+                        outputStream.writeObject(estudiantes.get(i).isColorVerde());
+                        outputStream.writeObject(estudiantes.get(i).isColornone());
                     }
                 }catch (IOException exception){
                     throw new RuntimeException(new Exception(exception));
